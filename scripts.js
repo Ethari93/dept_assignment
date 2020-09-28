@@ -41,7 +41,7 @@ $( document ).ready(function() {
   })
 
   var $iW = $(window).innerWidth();
-  if ($iW < 769px){
+  if ($iW < 769){
     $(".three-q").each(function() {
        var right=$(this).find('.right');
        var left=$(this).find('.left');
