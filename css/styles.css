@@ -1,0 +1,469 @@
+body{
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  font-family: maison neue,helvetica neue,arial,sans-serif;
+}
+
+.hero{
+  height: 744px;
+  width: 100%;
+  background: url("../assets/florensis.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-copy{
+  font-family: 'Teko', serif;
+  font-size: 30rem;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.hero-container{
+  width: 100%;
+  height: 100%;
+  padding-top: 8rem;
+  padding-left: 9rem;
+  position: relative;
+}
+
+.hero a:hover{
+  text-decoration: none;
+}
+
+.work-img:hover{
+  opacity: 50%;
+}
+
+.work-img{
+   transition: opacity 0.2s ease-in-out;
+}
+
+.padding-none{
+  padding: 0;
+}
+
+.site-content{
+  margin-top: 5rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  position: relative;
+}
+
+.case-client{
+  text-transform: uppercase;
+  font-family: 'Arial', serif;
+  color: #9c9c9c;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.case-description{
+  font-family: 'Teko', serif;
+  font-size: 2.5rem;
+  color: #424242;
+  letter-spacing: 0.02em;
+}
+
+.case-cta{
+  color: blue;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.case-cta .arrow{
+  height: 1.5rem;
+  transform: translateY(2px);
+  margin-right: 0.5rem;
+}
+
+.module{
+  margin-top: 8rem;
+}
+
+.col-img{
+  width: 100%;
+}
+
+.project-details.left{
+  padding-right: 4rem;
+}
+
+.project-details .case-client{
+  text-transform: uppercase;
+  font-family: 'Arial', serif;
+  color: #9c9c9c;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.project-details .case-description{
+  font-family: 'Teko', serif;
+  font-size: 1.7rem;
+  color: #424242;
+  letter-spacing: 0.02em;
+}
+
+.project-details .row{
+    border-top: 1px solid #d4d4d4;
+    margin-bottom: 3rem;
+}
+
+.three-q-right{
+  height: 100%;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.separator{
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 8rem;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.dept-experience{
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  text-align: left;
+}
+
+.dept-experience h2{
+  font-size: 2.7rem;
+  font-family: 'Teko', serif;
+}
+
+.quote-author{
+  margin-top: 3rem;
+  font-weight: bold;
+}
+
+.clients-showcase{
+  background-color: #F3F6F6;
+  padding: 6rem;
+}
+
+.clients-headline{
+  font-family: 'Teko', serif;
+  font-size: 3.7rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.client-logos img{
+   width: 100%;
+}
+
+.contact-form h2{
+  font-family: 'Teko', serif;
+  font-size: 3.8rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin: 0 8rem 0 0;
+}
+
+.contact-form input{
+  border: none;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.contact-form textarea{
+  height: 10rem;
+  border: none;
+  border-bottom: 1px solid #d4d4d4;
+  resize: none;
+}
+
+.contact-form .lbl{
+  text-transform: uppercase;
+}
+
+.contact-form .button{
+  margin-top: 3rem;
+}
+
+.footer{
+  background: #000;
+  margin-top: 5rem;
+  color: white;
+}
+
+.dept-logo{
+  width: 6rem;
+  fill: white;
+  margin-top: -1rem;
+}
+
+.footer-items.nav{
+  text-transform: uppercase;
+  font-family: 'Teko', serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.02em;
+}
+
+.footer-items li{
+  margin-right:1rem;
+}
+
+.footer li{
+  display: block;
+  padding: 0.4rem;
+  text-decoration: none;
+}
+
+.footer .top li{
+  color: white;
+}
+
+.social-icons ul, .footer-items{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+.social-icons{
+  float: right;
+}
+
+.copyright{
+  text-align: right;
+}
+
+.social-icons svg{
+  height: 1.5rem;
+  fill: white;
+  margin-left: 1rem;
+}
+
+.border-#939393{
+  border-bottom: 1px solid #808080;
+}
+
+.legal-info{
+  margin-top: 3rem;
+  font-size: 1rem;
+  color: #808080;
+}
+
+.legal-info li{
+  color: #808080;
+}
+
+.legal-info li:hover{
+  color: white;
+}
+
+.footer-bottom li{
+  text-transform: none;
+}
+
+.nav-modal .row li .locale-select{
+  color: #939393;
+}
+
+@media only screen and (min-width:769px) {
+  .project-details.right{
+    padding-left: 4rem;
+  }
+
+  .footer .top li:hover{
+    transform: scale(1.1);
+  }
+
+  .projects-row{
+    margin-top: 5rem;
+  }
+
+  .column-left{
+    padding-right: 1rem;
+  }
+
+  .column-right{
+    padding-left: 1rem;
+  }
+
+  .client-logos{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+
+  .contact-form .form-row{
+    width: 60%;
+    margin-bottom: 3rem;
+  }
+
+  .footer{
+    padding: 5rem;
+    margin-right: 9rem;
+  }
+
+  .footer li{
+    text-align: center;
+    float: left;
+  }
+
+  .clients-description{
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 769px) {
+  .contact-form{
+    margin-left: 5rem;
+  }
+}
+
+
+@media only screen and (max-width:768px) {
+  .hero{
+    height: auto;
+    background-position: center right;
+    height: 375px;
+  }
+
+  .hero-copy{
+    font-size: 17rem;
+  }
+
+  .hero-container{
+    padding-top: 6rem;
+    padding-left: 2rem;
+  }
+
+  .hero .btn-sticky{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: -6rem;
+    width: 30rem;
+  }
+
+  .top-nav{
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .top-nav .nav-content{
+    border: none;
+  }
+
+  .site-content{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .work-case .row{
+    margin-bottom: 2rem;
+  }
+
+  .work-case h2{
+    margin: 0;
+  }
+
+  .case-cta{
+    display: none;
+  }
+
+  .case-description{
+    margin-top: 1rem;
+  }
+
+  .module {
+    margin-top: 4rem;
+  }
+
+  .mobile-hide{
+    display: none !important;
+  }
+
+  .three-q .work-img{
+    margin-top: 5rem;
+  }
+
+  .dept-experience{
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  .clients-showcase {
+    background-color: #F3F6F6;
+    padding: 2rem;
+  }
+  .contact-form h2 {
+    text-align: center;
+    font-size: 2.9rem;
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+
+  .contact-form{
+    margin: 3rem;
+  }
+
+  .contact-form .form-row{
+    width: 100%;
+  }
+
+  .contact-form input, .contact-form textarea{
+    width: 100%;
+  }
+
+  .contact-form label{
+      margin-top: 3rem;
+  }
+
+  .contact-form .button {
+    width: 12rem;
+  }
+
+  .footer {
+    padding: 5rem 2rem 5rem 2rem;
+  }
+
+  .footer-items li{
+    font-size: 2.5rem;
+  }
+
+  .social-column{
+    position: absolute;
+    top: 0.6rem;
+    right: 0;
+  }
+
+  .footer .top{
+    position: relative;
+    padding-bottom: 4rem;
+  }
+
+  .social-icons li{
+    text-align: center;
+  }
+
+  .footer-items.footer-bottom li{
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+
+  .copyright{
+    text-align: left;
+    margin-top: 2rem;
+  }
+
+  .site-content{
+    margin-top: 8rem;
+  }
+
+  .footer .top li:hover{
+    text-decoration: none;
+  }
+}
